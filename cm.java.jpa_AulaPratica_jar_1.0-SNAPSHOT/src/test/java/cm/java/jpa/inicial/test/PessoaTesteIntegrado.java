@@ -43,8 +43,8 @@ public class PessoaTesteIntegrado {
     }
 
     @Test
-    public void deveriaCriarPessoaJose() throws Exception {
-        Pessoa pessoa = new Pessoa("222222","Jose", "da Oliveira");
+    public void deveriaCriarPessoaBruno() throws Exception {
+        Pessoa pessoa = new Pessoa("222222","Bruno", "Penha");
         tx.begin();
         em.persist(pessoa);
         tx.commit();
